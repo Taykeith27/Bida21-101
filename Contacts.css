@@ -1,0 +1,236 @@
+header {
+	  margin:0px;
+	  padding:0px;
+	  background-color: rgba(151,151,151,0.0.03);
+}
+* {
+	box-sizing:border-box;
+}
+
+ul {
+	list-style:none;
+}
+a {
+	text-decoration:none;
+}
+nav {
+	 display:flex;
+	 justify-content:space-around;
+	 align-items:center;
+	 width:100%;
+	 border:1px solid rgba(0,0,0,0.04);
+	 background-color:#ffffff;
+	 position:fixed;
+	 left:0;
+	 top:0;
+	 z-index:100;
+}
+.Logo img{
+	      height:35px;
+}
+nav .menu {
+		   display:flex;
+}
+nav .menu li a{
+	            height:40px;
+				line-height:43px;
+				margin:0px;
+				padding: 0px 22px;
+				display:flex;
+				font-size:0.8rem;
+				text-transform:uppercase;
+				font-weight:500;
+				color:#585585;
+				letter-spacing:1px;
+}
+.search {
+	     width:250px;
+		 height:40px;
+		 background-color: rgba(245,245,245,0.08);
+		 display:flex;
+		 justify-content: center;
+		 align-items:center;
+		 border-radius:20px;
+		 padding:0px 20px
+}
+.Search input{
+	          width:100%;
+			  height:30px;
+			  border:none;
+			  outline:none;
+			  background-color:transparent;
+}
+nav .menu li a:hover{
+	                 background-color:#242424;
+					 color:#ffffff;
+					 box-shadow: 5px 10px 30px rgba(53,53,53,0.1);
+}
+#main { 
+	       padding-top:60px;
+		   background-color:#ffffff;
+		   	font-family: 'Roboto Slab', serif;
+}
+.h1-tag{
+	border:2px solid rgba(0,0,0,0.04);
+	border-radius:15px 15px 0px 0px;
+    text-align:center;
+    margin-top: 4%;
+}
+* {
+		 margin:0px;
+		 padding:0px;
+		 font-family:sans-serif;
+}
+#main {
+	padding-top:80px;
+	width:800px;
+       text-align:center;
+	   margin:auto;
+
+	   border-radius:10px;
+	   overflow:hidden;
+	   
+}
+form {padding:10px;
+background:#ffcff1;
+}
+#name {width:100%;
+       height:100px;
+}
+.name {margin-left:25px;
+       margin-top:30px;
+	   width:125px;
+	   font-size:18px;
+	   font-weight:700;
+}
+.firstname {position:relative;
+			left:-81px;
+			top:-37px;
+			line-height:40px;
+			border-radius:6px;
+			padding:0 22px;
+			font-size:16px;
+}
+.lastname {position:relative;
+			left:250px;
+			top:-80px;
+			line-height:40px;
+			border-radius:6px;
+			padding:0 22px;
+			font-size:16px;
+}
+.lastlable {position:relative;
+			 font-size:14px;
+			 left:5px;
+			 top:-50px;
+}
+.firstlable {position:relative;
+			 font-size:14px;
+			 left:-7px;
+			 top:-50px
+}
+.Subject {position:relative;
+			left:-80px;
+			top:-30px;
+			line-height:40px;
+			border-radius:6px;
+			padding:0 22px;
+			font-size:16px;
+}
+.radio1  {position:relative;
+			left:-60px;
+			top:-80px;
+			line-height:100px;
+			border-radius:6px;
+			padding:0 22px;
+			size:100px;
+}
+.radio2{position:relative;
+			left:-60px;
+			top:-80px;
+			line-height:100px;
+			border-radius:6px;
+			padding:0 22px;
+			size:100px;
+}
+.rdo{position:relative;
+			left:-100px;
+			top:-60px;
+			line-height:100px;
+			border-radius:6px;
+			padding:0 22px;
+			size:100px;
+}
+.rdo1{position:relative;
+			left:-100px;
+			top:-60px;
+			line-height:100px;
+			border-radius:6px;
+			padding:0 22px;
+			size:100px;
+}
+
+.email {position:relative;
+			left:88px;
+			top:-30px;
+			line-height:40px;
+			border-radius:6px;
+			padding:0 22px;
+			font-size:16px;
+			width:580px;
+	    
+}
+.code {position:relative;
+			left:68px;
+			top:-30px;
+			line-height:40px;
+			border-radius:6px;
+			padding:0 22px;
+			width:100px;
+			font-size:16px;
+			line-height:40px;
+		
+}
+.number {position:relative;
+			left:220px;
+			top:-30px;
+			line-height:40px;
+			border-radius:6px;
+			padding:0 22px;
+			font-size:16px;
+			line-height:40px;
+}
+.area-code{position:relative;
+	left:-35px;
+}
+.text{position:relative;
+        left:115px;
+		top: -26px;
+		border-radius:7px;
+		border:solid 2px;
+		line-height:40px;
+		width:575px;
+		
+}
+.btn {position:relative;
+      left:-430px;
+	  top:5px;
+	
+}
+footer{display:flex;
+        justify-content: space-between;
+        padding:0px 20px;
+        text-align: center;
+}
+footer{ padding-top:30px;
+		margin:10px 0px;
+       color:#5e5e5e;
+}
+footer ul li a:hover{
+					 background-color:#242424;
+					 color:#ffffff;
+					 box-shadow: 5px 10px 30px rgba(53,53,53,0.1);
+}
+footer ul li {text-align:left;
+}
+	   
