@@ -99,7 +99,7 @@ nav .menu li a:hover{
 				   text-align:center;
 }
 .cs-hidden{
-    overflow: visible !important;
+    overflow: visible;
 	display:flex
 }
 #Movies{
